@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: compartibike_solidus_development
+  pool: 5
+  username: user
+  password: 
+  host: localhost
+  template: template0
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: compartibike_solidus_test
+  pool: 5
+  username: user
+  password: 
+  min_messages: WARNING
+  host: localhost
+  template: template0
+
